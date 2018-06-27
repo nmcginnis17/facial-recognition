@@ -2,5 +2,5 @@
 Facial recognition app
 
 App uses:
-clmtracker
+clmtracker <br>
 p5.js Library
