@@ -1,0 +1,56 @@
+/*
+* Removes default browser margins and change typeface.
+*/
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+}
+
+/*
+* Styled to take full width and height of the screen,
+* so that they are always viewed in the same place one over the other.
+*/
+video {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+  vertical-align: top;
+}
+
+canvas {
+  display: block;
+  width: 100% !important;
+  height: auto !important;
+  vertical-align: top;
+}
+
+/*
+* Position Logo
+*/
+#logo {
+  position: absolute;
+  z-index: 1000;
+}
+
+#logo img {
+  width: 310px;
+}
+
+/*
+* Instruction Placement
+*/
+#inst {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+}
